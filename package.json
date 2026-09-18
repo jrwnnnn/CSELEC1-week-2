@@ -1,0 +1,13 @@
+{
+	"name": "week-2-act",
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"php-dev": "php -S localhost:8080",
+		"tailwind-dev": "npx @tailwindcss/cli -i ./src/styles/input.css -o ./src/styles/output.css --watch"
+	},
+	"dependencies": {
+		"@tailwindcss/cli": "^4.3.3",
+		"tailwindcss": "^4.3.3"
+	}
+}
